@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0-public",
+  "created": "2026-10-17",
+  "display_name": "河图·AI讲师PPT",
+  "relative_paths": true,
+  "files": [
+    {
+      "path": "assets/backgrounds/chapter-experience.png",
+      "sha256": "20b3001d0274f22fc7414fce1eaa725f0d28a627095d5956ea52161ac65194a3",
+      "bytes": 1581228
+    },
+    {
+      "path": "assets/backgrounds/content-circles.png",
+      "sha256": "46e3a9456b2723d1ae7abce2b7e35cb3923b58a68884868765e8f11ff21dfefa",
+      "bytes": 1006394
+    },
+    {
+      "path": "assets/backgrounds/cover-experience.png",
+      "sha256": "1047800a6061291d769348bd3e8e99c9fd2c9e5cd5381b56b641b93c4863cfc9",
+      "bytes": 1566924
+    },
+    {
+      "path": "assets/backgrounds/three-concepts-original.png",
+      "sha256": "57e3463531a9d6e9fabf4b6216cbc16c35f06e2aebf85220bdf5fca4a1aaf20c",
+      "bytes": 1096249
+    },
+    {
+      "path": "assets/brand/instructor.json",
+      "sha256": "d5937f34632bdf567440d7a38e61ec33cd9e74a98c23d30b728cec3c2c2bc150",
+      "bytes": 1025
+    },
+    {
+      "path": "assets/brand/instructor.png",
+      "sha256": "1b4c8be6e1d471822ab726666f79f73037086ceeee859d160beb7052271c3f1f",
+      "bytes": 606564
+    },
+    {
+      "path": "assets/brand/logo-dark.png",
+      "sha256": "b0faac739b887ea3309ad1acb59cd3f746d8cfe126aad061737242e5a6dff8dc",
+      "bytes": 642560
+    },
+    {
+      "path": "assets/brand/logo-light.png",
+      "sha256": "f0e746678eda055f3c770f499f40e94a8a239477cbd8e05b0b864d8a7843a691",
+      "bytes": 136905
+    },
+    {
+      "path": "assets/preview.png",
+      "sha256": "a4ae076edacda8fed4f510b92d5a6cb05664fd2a7b15009a0ec4e16ba0b4bafd",
+      "bytes": 743836
+    },
+    {
+      "path": "assets/previews/chapter.png",
+      "sha256": "0fd03cdf56d28384121404b900308978d7ed5aa865fad28dac93a5880490b306",
+      "bytes": 736758
+    },
+    {
+      "path": "assets/previews/content.png",
+      "sha256": "7b9914a7a6945dd73fa8e233ecce450c62d4275979bee0b05651859985023c9f",
+      "bytes": 605696
+    },
+    {
+      "path": "assets/previews/outline.png",
+      "sha256": "4bdf981c99c392feb499a38584333ccc5de455df251f09ddcf46f5432d37f595",
+      "bytes": 248486
+    },
+    {
+      "path": "assets/previews/profile.png",
+      "sha256": "d127af410a4a25c3e684b89c2381ba7706284e55a34de38720b448c74b0020d0",
+      "bytes": 365207
+    },
+    {
+      "path": "assets/prompts/chapter.txt",
+      "sha256": "67fe53d55a5eb16a253daee9fe974aa908f560be4c257453e992e174b411898a",
+      "bytes": 1824
+    },
+    {
+      "path": "assets/prompts/content.txt",
+      "sha256": "60fe3b3ad5042b4a64004931159535e62e5fc8dc73e05ebc2eba9c7f2cdbb3ce",
+      "bytes": 1751
+    },
+    {
+      "path": "assets/prompts/cover.txt",
+      "sha256": "3521e0812181e3f39a0549ea2adc5e8b1d838c1216b47d7fbd12094ce6ec62e5",
+      "bytes": 2400
+    },
+    {
+      "path": "assets/reference.pptx",
+      "sha256": "791ffcafcf19ad3a016194a4344827a39b0435347ebfc72c5bf33cd7e8056835",
+      "bytes": 4054512
+    },
+    {
+      "path": "assets/samples/chapter-v3.pptx",
+      "sha256": "7e1bd28fa9a65e77ef1011c5b9654d8d23b57d95dbb75a46ac38f65624f2cf20",
+      "bytes": 1493787
+    },
+    {
+      "path": "assets/samples/content-circles-v1.pptx",
+      "sha256": "6542dd0901338e3c074ed0d46fe90a862014059bcfd41c9fc2e5535a174a020a",
+      "bytes": 7070611
+    },
+    {
+      "path": "assets/samples/knowledge-practice-v2.pptx",
+      "sha256": "0f45157246ae2bbbaada0c2ab1be756c03f49c79fbec529ef1ba8d9933b45ba0",
+      "bytes": 2459640
+    },
+    {
+      "path": "assets/samples/outline-v2.pptx",
+      "sha256": "8743e6a7f4320003411c649bd6184ee723786bc0e947df79dfae30fdfe8922c7",
+      "bytes": 2039262
+    },
+    {
+      "path": "assets/samples/profile-v6.pptx",
+      "sha256": "fb63887bb2051011273e01e0f34275265908f685f42b2f0404464ab8240c4828",
+      "bytes": 4614542
+    },
+    {
+      "path": "assets/samples/three-icons-v3.pptx",
+      "sha256": "98437353a6a65826e1084d8c9e35aaff44c6238820a1852d8a7fb9e04b72f050",
+      "bytes": 6299956
+    }
+  ]
+}

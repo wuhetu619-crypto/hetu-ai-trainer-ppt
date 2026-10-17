@@ -1,0 +1,28 @@
+{
+  "name": "吴河图",
+  "fixed_slide_number": 2,
+  "photo": "assets/brand/instructor.png",
+  "photo_sha256": "1b4c8be6e1d471822ab726666f79f73037086ceeee859d160beb7052271c3f1f",
+  "credentials_original": [
+    "工信部工业文化发展中心认证AIGC高级培训师",
+    "畅销书《社群学习》作者",
+    "东北大学数字经济专题培训讲师",
+    "帆书APP非凡精读馆讲书人",
+    "AI深度探索者"
+  ],
+  "text_source": "原始参考课件第 2 页，保留用户自我介绍原文",
+  "fixed_elements": [
+    "人物原照",
+    "姓名",
+    "介绍文字",
+    "第 2 页位置",
+    "左文右人和蓝绿背景的基本结构"
+  ],
+  "dynamic_elements": [
+    "课程名称等必要课程元数据",
+    "总页数和当前页码"
+  ],
+  "change_policy": "未经用户明确要求，照片、介绍文字、第2页位置、字号、断行与已确认布局均直接沿用；不自行重新设计。",
+  "locked_reference": "assets/samples/profile-v6.pptx",
+  "locked_reference_slide": 2
+}
