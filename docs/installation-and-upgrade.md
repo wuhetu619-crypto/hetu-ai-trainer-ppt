@@ -1,8 +1,8 @@
-# 安装与升级 v2.0.0
+# 安装与升级 v3.0.0
 
 ## 作者当前ChatGPT桌面
 
-该桌面环境可发现个人skills目录。v2在同一`artifact-template-hetu-trainer-ppt`目录原位替换，通过个人模板更新工具登记新的原生参考与预览；显示名继续为“河图·AI讲师PPT”。用技能发现接口核对当前路径、enabled状态及新版描述。不要同时把v1/v2两个文件夹放在可发现的skills目录。
+该桌面环境可发现个人skills目录。v3在同一`artifact-template-hetu-trainer-ppt`目录原位替换，保留已登记的主参考与预览，新增补充原生样页和更新说明；显示名继续为“河图·AI讲师PPT”。用技能发现接口核对当前路径、enabled状态及新版描述。不要同时把多个版本的文件夹放在可发现的skills目录。
 
 下载完整发布包后，请支持本地技能的Agent安装完整文件夹并运行check_package.py。已有个人修改时先保存身份素材；升级不要误覆其他人的个人化信息。包内是作者公开示例身份。
 
@@ -16,4 +16,4 @@
 
 ## 包和历史
 
-最新包`hetu-ai-trainer-ppt-v2.0.0.zip`只有一个顶层技能目录。当前main与Latest Release指向v2；v1留在Git历史和历史Release用于追溯。旧活动安装退出，历史可审计。
+最新包`hetu-ai-trainer-ppt-v3.0.0.zip`只有一个顶层技能目录。当前main与Latest Release指向v3；v1/v2留在Git历史和历史Release用于追溯。旧活动安装退出，历史可审计。

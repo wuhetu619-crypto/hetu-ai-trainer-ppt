@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "purpose": "内部证据记录；仅填任务实际使用的字段，不把空字段放上课堂页",
+  "items": [
+    {
+      "old_page": null,
+      "old_object": null,
+      "teaching_goal": null,
+      "decision": null,
+      "new_pages": [],
+      "claim": null,
+      "source_url": null,
+      "publisher": null,
+      "published_at": null,
+      "checked_at": null,
+      "exact_model_or_software_version": null,
+      "source_kind": null,
+      "read_or_operation_scope": null,
+      "test_conditions": {
+        "hardware": null,
+        "framework_version": null,
+        "precision": null,
+        "context_length": null,
+        "concurrency": null
+      },
+      "verification_status": null,
+      "limitations": null
+    }
+  ]
+}

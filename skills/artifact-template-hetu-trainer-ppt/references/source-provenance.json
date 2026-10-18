@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "3.0.0",
   "source_title": "把经验变成AI生产力_101-102页表格优化_120页.pptx",
   "source_slides": 120,
   "source_sha256": "119b155b7c76edba4735b4c93530bc7734548bb0bd2857745b8f7401e7548add",
@@ -45,5 +45,33 @@
     "120-page length",
     "section count"
   ],
-  "full_source_in_public_package": false
+  "full_source_in_public_package": false,
+  "v3_supplement": {
+    "source_title": "Part1_AI应用场景_河图修订版_69页.pptx",
+    "source_sha256": "89671b0cfcf5155027f27c352c30f572d2e1e86b69f5b52e1bfedfadf6ce5810",
+    "source_slides": 69,
+    "source_pages": [
+      44,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "reference": "assets/examples/route-and-refresh.pptx",
+    "reference_slides": 11,
+    "transformations": [
+      "Extract selected native slides and dependencies",
+      "Renumber named footer only",
+      "Retain source citations in notes",
+      "Name the existing footer logo consistently; no visible changes"
+    ],
+    "full_source_or_videos_in_public_package": false,
+    "technical_snapshot_date": "2026-10-18"
+  }
 }

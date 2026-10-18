@@ -1,7 +1,7 @@
 interface:
   display_name: "河图·AI讲师PPT"
-  short_description: "v2.0：培训新课开发、原文保真精修、指定页修改，统一黑体与蓝绿版式"
+  short_description: "v3.0：语义路线与小图标、主动技术更新、真实截图和配置证据，保留蓝绿品牌"
   icon_large: "./assets/preview.png"
-  default_prompt: "使用 $artifact-template-hetu-trainer-ppt，先判断是新课开发、保真精修还是局部改稿，按河图蓝绿品牌、全套Heavy加粗和明确教学链条完成课件。"
+  default_prompt: "使用 $artifact-template-hetu-trainer-ppt，先判断任务范围，以语义路线、功能图标、截图和原生表格生动表达；需要技术更新时主动核查当前资料，保留稳定概念与河图蓝绿品牌。"
 policy:
   allow_implicit_invocation: true

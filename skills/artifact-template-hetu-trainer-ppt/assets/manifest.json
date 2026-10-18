@@ -1,21 +1,21 @@
 {
-  "version": "2.0.0",
+  "version": "3.0.0",
   "updated": "2026-10-18",
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "443c4dc62db9852102f70fbc52faf669d8950ecdf091f16f79bf1f4ef1454120",
-      "bytes": 6936
+      "sha256": "05eb37484a0545551ef2371dbc7537e0775b8945258a101dd471529714aec9a8",
+      "bytes": 8517
     },
     {
       "path": "VERSION",
-      "sha256": "c28fcca53637bc88e124af1725df13cb98c69dedefd62fb3cdbe1cdb6b760624",
+      "sha256": "2985be8b28d3ade858e8d8fb4bc22f565b1bf6020dff982dce141f7721b9999c",
       "bytes": 6
     },
     {
       "path": "agents/openai.yaml",
-      "sha256": "490aecba598528dd5d8e80524fdde5a788255c19fd0bd7d238135083bf7122a2",
-      "bytes": 449
+      "sha256": "818ea4d029518fbde25599b88a5d3e9a86a1e0677768cabf4476f9070bdb054e",
+      "bytes": 504
     },
     {
       "path": "artifact-template.json",
@@ -61,6 +61,101 @@
       "path": "assets/brand/logo-light.png",
       "sha256": "f0e746678eda055f3c770f499f40e94a8a239477cbd8e05b0b864d8a7843a691",
       "bytes": 136905
+    },
+    {
+      "path": "assets/examples/previews/01.jpg",
+      "sha256": "f338c17ede6529f595253825b2006bd79d35e4dc3703d8798430aa2eeae97c55",
+      "bytes": 145401
+    },
+    {
+      "path": "assets/examples/previews/02.jpg",
+      "sha256": "f7679d0f9798e8e31697ed96c045c1de0e07e9d60898912f43b7de67c4f23550",
+      "bytes": 186375
+    },
+    {
+      "path": "assets/examples/previews/03.jpg",
+      "sha256": "a0f362c9afddc6699b33a46cb1c81e43387af8210b73a096a41d97b47d0ee503",
+      "bytes": 135050
+    },
+    {
+      "path": "assets/examples/previews/04.jpg",
+      "sha256": "43b66d5cc753fae3aa69e2228e89af7f16dacb7d48307a3297f64bc7dc1a2a69",
+      "bytes": 199459
+    },
+    {
+      "path": "assets/examples/previews/05.jpg",
+      "sha256": "988b55d53d9bd15f61a5f0c51247e9c886b310aba678ae35778b20da67ac2597",
+      "bytes": 191565
+    },
+    {
+      "path": "assets/examples/previews/06.jpg",
+      "sha256": "420ba68e7f96998adc7bec4f00d07fdfe255402aa5a43c8237ee82893db81725",
+      "bytes": 173572
+    },
+    {
+      "path": "assets/examples/previews/07.jpg",
+      "sha256": "482ab120a59b00cf7e204947b047d35cfbab7c47a10194a6d1104c0a4ed4841a",
+      "bytes": 191201
+    },
+    {
+      "path": "assets/examples/previews/08.jpg",
+      "sha256": "d98bb8faabe18a22a00f2a466fd834ca34be9a255a368636c7c261f85ecc32ce",
+      "bytes": 173311
+    },
+    {
+      "path": "assets/examples/previews/09.jpg",
+      "sha256": "e13f4b23afab50f8e6d997816f36b53d54a30290bd6ec388f9f35853a19866c6",
+      "bytes": 201720
+    },
+    {
+      "path": "assets/examples/previews/10.jpg",
+      "sha256": "5683dc2b456be0698e1cff8cc0b00e19e8f130f97112b7da772e0a2640de5c9e",
+      "bytes": 168049
+    },
+    {
+      "path": "assets/examples/previews/11.jpg",
+      "sha256": "0a653b7fa9c4b057361acd07a10e5139e5ff57ca4f6878084e613c6aef8c8e37",
+      "bytes": 185769
+    },
+    {
+      "path": "assets/examples/route-and-refresh.pptx",
+      "sha256": "bb4f7317fa57e75d96844258f3a050f6a8d99d2134be4814aa359b40233e117e",
+      "bytes": 2094695
+    },
+    {
+      "path": "assets/icons/icon-0.png",
+      "sha256": "e12756cbe67f36196ccbf3225dfe49a08277591cced4051c334b63c79270149e",
+      "bytes": 72350
+    },
+    {
+      "path": "assets/icons/icon-1.png",
+      "sha256": "e72fb290345fbc484f102b7cc27c0570df80aa007c447588c6da750be675ed7f",
+      "bytes": 80050
+    },
+    {
+      "path": "assets/icons/icon-2.png",
+      "sha256": "a954c8df981401f244cd66ccd8530b0ed67533855bd339962a8fd49514e19886",
+      "bytes": 99653
+    },
+    {
+      "path": "assets/icons/icon-3.png",
+      "sha256": "bfce0ff0cd7443debe7c85a263f4314650e26b66b604c90d60570d925aded403",
+      "bytes": 79822
+    },
+    {
+      "path": "assets/icons/icon-4.png",
+      "sha256": "7ee6b67319aaad098c98e9353473b0308d59b0ef8bec6f8128f214c58899e32d",
+      "bytes": 77129
+    },
+    {
+      "path": "assets/icons/icon-5.png",
+      "sha256": "09a76bfca09d1774df1697a023e50475a98a1749b9534a675426a0ef886c756f",
+      "bytes": 92505
+    },
+    {
+      "path": "assets/icons/route-atlas.png",
+      "sha256": "f35e5f4dc86f4d7c480c98712d916bdf76975ba05a2e37b77748b768d7c6af5e",
+      "bytes": 493215
     },
     {
       "path": "assets/preview.png",
@@ -218,19 +313,29 @@
       "bytes": 2400
     },
     {
+      "path": "assets/prompts/route-icons.txt",
+      "sha256": "9e16aa59d8af6e791d849d93a59d8d2d7f7a395b6cd613d6532e743ecc1392b8",
+      "bytes": 569
+    },
+    {
       "path": "assets/reference.pptx",
       "sha256": "192bc6b9d0dd3800437bcb0cc32ebc7acd23f93a92c36f5bf3d1964035eb38d0",
       "bytes": 12427050
     },
     {
       "path": "design-tokens.json",
-      "sha256": "d11c419eb69fc65472b034a076993f4052292632ec93cdf09df4f664da3407f2",
+      "sha256": "02a71148d7045a3ca7b61b3d9ed324ecc787e544f94a28951875f2d33b7919f7",
       "bytes": 1831
     },
     {
       "path": "examples/evaluation-cases.md",
-      "sha256": "7f51ac2b3aec3d7ae81f7bb87f5fe015716d3c9b9876a3fe7caf8c9dbb106e36",
-      "bytes": 1380
+      "sha256": "be589f5c4f228aaa805542c004c44f16faae09c0a25ae433d6d42a3331862b3c",
+      "bytes": 3029
+    },
+    {
+      "path": "examples/更新证据记录模板.json",
+      "sha256": "535dafba2906cd8d2cd15703716bf6aae85e67f8e1b4133a9af09a71ba91bc7b",
+      "bytes": 770
     },
     {
       "path": "examples/课程开发示例.json",
@@ -239,8 +344,8 @@
     },
     {
       "path": "references/approved-assets.md",
-      "sha256": "5fe40bec8aeddb5b587dbe1db6ebcee838ec7503393fb30e653b2710aa0ba2f8",
-      "bytes": 3805
+      "sha256": "42b64caede82ec4177f5962dc7ed7f0d04a00772727ebd2c1d36b778a8284170",
+      "bytes": 4226
     },
     {
       "path": "references/brand-and-layout.md",
@@ -249,8 +354,8 @@
     },
     {
       "path": "references/expression-patterns.md",
-      "sha256": "5586e43590a59f09fc5ca254a550368884511ec937b027868c45cf8bfc21f14c",
-      "bytes": 4870
+      "sha256": "6f7f7a2c6aec7968db614f71622c10b35d4df01fa86b3e917f378b4014c4bb56",
+      "bytes": 5613
     },
     {
       "path": "references/input-and-course-design.md",
@@ -264,18 +369,18 @@
     },
     {
       "path": "references/preservation-and-local-edit.md",
-      "sha256": "aafc46b869d0391871192c4cc9e3b395d6436314dd06a0975cabbc0e1f9ee7a3",
-      "bytes": 4049
+      "sha256": "74bf477bbea6d1982a6640f6d80f6742098a7c3b810c07bf4a66cad09b8e5351",
+      "bytes": 4620
     },
     {
       "path": "references/production-and-review.md",
-      "sha256": "bdbe50a9e2f3f8259529a3c8accf6316feb4156dec671a34fd7e4c48a0d2ec5c",
-      "bytes": 3384
+      "sha256": "b583b6f3aa3817813903b374c1b04f934e641ca96e5ede725be4717c5fc499f9",
+      "bytes": 3878
     },
     {
       "path": "references/source-provenance.json",
-      "sha256": "b5f338b0b96dfe26ac125ccb82f97aefabbe55d9227e38c6ebc44e59a4bd2220",
-      "bytes": 862
+      "sha256": "7996550a4f103a818bc7ffac3f4b9738925910c2ef9f90997a07ccda5c0416f4",
+      "bytes": 1634
     },
     {
       "path": "references/sources.md",
@@ -288,9 +393,24 @@
       "bytes": 3251
     },
     {
+      "path": "references/technical-refresh.md",
+      "sha256": "98cdb31f77cfe4ba4a6546baa412ab375cd5f401a75bd57761116a9393c9bafb",
+      "bytes": 7619
+    },
+    {
+      "path": "references/v3-approved-examples.md",
+      "sha256": "7103ddb0da378c588eb989afc2b68548c667d0e7be7fdb561fa7f7c7920def75",
+      "bytes": 2547
+    },
+    {
       "path": "references/version-history.md",
-      "sha256": "91492911673b9fc70d6b72c6ae8602a7f7a87b7a68ce8f2530e53f2a4cc6ea78",
-      "bytes": 3059
+      "sha256": "2e5197b804af71b9b347faf53f48426bb2faac00e70cc09b7405012d2c6dc01f",
+      "bytes": 4596
+    },
+    {
+      "path": "references/visual-storytelling.md",
+      "sha256": "ed2967076e47f4f643bd3627f1c4420bb558eeadcb5cc84c73345d17806b5473",
+      "bytes": 4066
     },
     {
       "path": "scripts/audit_deck.py",
@@ -334,8 +454,8 @@
     },
     {
       "path": "使用说明.md",
-      "sha256": "457883f185217f7fb82776695bafa0a418a93a9040489decb78cbdc799754416",
-      "bytes": 2370
+      "sha256": "30d7bed22b0fa6a745d50716fdf0b838532cf4ef0262bf51268aa5fa3f5c3d41",
+      "bytes": 2697
     }
   ]
 }

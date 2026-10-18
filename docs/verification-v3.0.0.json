@@ -1,0 +1,94 @@
+{
+  "version": "3.0.0",
+  "date": "2026-10-18",
+  "package": {
+    "ok": true,
+    "checked_resources": 91,
+    "errors": []
+  },
+  "regression": {
+    "ok": true,
+    "passed": 12,
+    "checks": [
+      "all native reference pages obey explicit brand rules",
+      "latest green tables pass centered large-text profile",
+      "one-table format change preserves text and all out-of-scope compressed records",
+      "allowed format object still detects one deleted character",
+      "unchanged text does not excuse out-of-scope format change",
+      "Regular regression is detected",
+      "explicit non-bold text is detected",
+      "duplicate folio is detected",
+      "new picture frame is detected",
+      "selected reference extraction preserves native cells",
+      "extracted tables preserve every cell",
+      "self comparison preserves every original object"
+    ],
+    "scope": "Deterministic native-PPT and failure-injection checks; not a full agent behavior or slideshow playback test."
+  },
+  "supplement_style": {
+    "ok": true,
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "errors": [],
+    "warnings": [],
+    "limits": "Only explicit object XML is checked; screenshots, inherited style, contrast, visual spacing and playback need manual review."
+  },
+  "supplement_native_import": {
+    "ok": true,
+    "slides": 11
+  },
+  "supplement_preservation": {
+    "ok": true,
+    "source_pages": [
+      44,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "slide_bodies_identical_except_folio_and_existing_logo_name": true,
+    "video_payloads_in_public_supplement": 0
+  },
+  "visual_review": {
+    "rendered_pages": 11,
+    "reviewed_pages": 11,
+    "renderer": "LibreOffice PDF and Poppler",
+    "native_PowerPoint_playback_tested": false
+  },
+  "frontmatter_validation": {
+    "passed": true,
+    "tool": "skill-creator quick_validate.py",
+    "dependency": "Existing cached PyYAML used through PYTHONPATH; no environment install"
+  },
+  "deployment": {
+    "path": "~/.codex/skills/artifact-template-hetu-trainer-ppt",
+    "version": "3.0.0",
+    "fresh_scan": true,
+    "enabled": true,
+    "scope": "user",
+    "duplicate_active_installations": 0,
+    "cloud_upload_performed": false
+  },
+  "review_limits": [
+    "16 behavioral scenarios documented and manually reviewed, not independent-agent end-to-end runs.",
+    "No local model install, download or execution.",
+    "No PowerPoint native slideshow/video playback test."
+  ]
+}
