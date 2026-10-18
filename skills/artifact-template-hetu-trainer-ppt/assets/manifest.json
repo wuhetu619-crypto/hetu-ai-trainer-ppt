@@ -1,9 +1,27 @@
 {
-  "version": "1.0.0-public",
-  "created": "2026-10-17",
-  "display_name": "河图·AI讲师PPT",
-  "relative_paths": true,
+  "version": "2.0.0",
+  "updated": "2026-10-18",
   "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "443c4dc62db9852102f70fbc52faf669d8950ecdf091f16f79bf1f4ef1454120",
+      "bytes": 6936
+    },
+    {
+      "path": "VERSION",
+      "sha256": "c28fcca53637bc88e124af1725df13cb98c69dedefd62fb3cdbe1cdb6b760624",
+      "bytes": 6
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "490aecba598528dd5d8e80524fdde5a788255c19fd0bd7d238135083bf7122a2",
+      "bytes": 449
+    },
+    {
+      "path": "artifact-template.json",
+      "sha256": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+      "bytes": 126
+    },
     {
       "path": "assets/backgrounds/chapter-experience.png",
       "sha256": "20b3001d0274f22fc7414fce1eaa725f0d28a627095d5956ea52161ac65194a3",
@@ -26,8 +44,8 @@
     },
     {
       "path": "assets/brand/instructor.json",
-      "sha256": "d5937f34632bdf567440d7a38e61ec33cd9e74a98c23d30b728cec3c2c2bc150",
-      "bytes": 1025
+      "sha256": "c8d17e57858d4b995ae5838ec86e0e061c0aa2c26779775fca3964a8e154af85",
+      "bytes": 1039
     },
     {
       "path": "assets/brand/instructor.png",
@@ -46,28 +64,143 @@
     },
     {
       "path": "assets/preview.png",
-      "sha256": "a4ae076edacda8fed4f510b92d5a6cb05664fd2a7b15009a0ec4e16ba0b4bafd",
-      "bytes": 743836
+      "sha256": "be9e502e79e94463700a7c964cf466dac90faa9f55e243e7e78ee670ae972462",
+      "bytes": 672734
     },
     {
-      "path": "assets/previews/chapter.png",
-      "sha256": "0fd03cdf56d28384121404b900308978d7ed5aa865fad28dac93a5880490b306",
-      "bytes": 736758
+      "path": "assets/previews/01.png",
+      "sha256": "be9e502e79e94463700a7c964cf466dac90faa9f55e243e7e78ee670ae972462",
+      "bytes": 672734
     },
     {
-      "path": "assets/previews/content.png",
-      "sha256": "7b9914a7a6945dd73fa8e233ecce450c62d4275979bee0b05651859985023c9f",
-      "bytes": 605696
+      "path": "assets/previews/02.png",
+      "sha256": "539a98b2e8f28f69de2618e944671e98b0eeba967d44704d5e3a269f9a7983b5",
+      "bytes": 312317
     },
     {
-      "path": "assets/previews/outline.png",
-      "sha256": "4bdf981c99c392feb499a38584333ccc5de455df251f09ddcf46f5432d37f595",
-      "bytes": 248486
+      "path": "assets/previews/03.png",
+      "sha256": "1c80ee0c443243810afadf13110fd32a180247b8f2493ea92168082f9f641d04",
+      "bytes": 383919
     },
     {
-      "path": "assets/previews/profile.png",
-      "sha256": "d127af410a4a25c3e684b89c2381ba7706284e55a34de38720b448c74b0020d0",
-      "bytes": 365207
+      "path": "assets/previews/04.png",
+      "sha256": "b828ad0a7a631a59d2837032cfda236988b461b94ea1f6c384c9ffb4cbd09975",
+      "bytes": 307111
+    },
+    {
+      "path": "assets/previews/05.png",
+      "sha256": "db073038dd5d36dbff021ede88e0ab449966111b8adcbe046ffe2e9270250bee",
+      "bytes": 400799
+    },
+    {
+      "path": "assets/previews/06.png",
+      "sha256": "636e550cd3f8c4059beab2d13aefb1328bc87ed15e0b4911ffb12165de3d0353",
+      "bytes": 402603
+    },
+    {
+      "path": "assets/previews/07.png",
+      "sha256": "e59e0ebcf9de13fbfb9fd7179e5dbfd92a9cf95d00f3d049875ef81677bede56",
+      "bytes": 752199
+    },
+    {
+      "path": "assets/previews/08.png",
+      "sha256": "b30315f31fd6c31daec943774cca034823c8c2db9c225c279f01e01f742a331c",
+      "bytes": 149966
+    },
+    {
+      "path": "assets/previews/09.png",
+      "sha256": "1ddcf310c2eafc2f217dcd85714a5f528b844fcf7958f647dafa7de821eb9333",
+      "bytes": 187035
+    },
+    {
+      "path": "assets/previews/10.png",
+      "sha256": "8c88f1d8c850fc119bd73b8a48b3873370eaab7dfdd205cc25304cf283981170",
+      "bytes": 320462
+    },
+    {
+      "path": "assets/previews/11.png",
+      "sha256": "c7a325660118ff11f5b0efefc717caf9d310b8cbab6a07a92e5b7897040519d9",
+      "bytes": 367085
+    },
+    {
+      "path": "assets/previews/12.png",
+      "sha256": "4da2807db0537d52042d4a3554f98ab0a0ccf00e750839672183acdfb828b20e",
+      "bytes": 314968
+    },
+    {
+      "path": "assets/previews/13.png",
+      "sha256": "6b56302f3ec35d8a1c1cde155552e8239b7b1a72edb022bc80e72250386abab7",
+      "bytes": 278525
+    },
+    {
+      "path": "assets/previews/14.png",
+      "sha256": "6607abda3c65cf8afe7c9af61521877123c7fac7cd32f48b25427d52ce3a3717",
+      "bytes": 1059645
+    },
+    {
+      "path": "assets/previews/15.png",
+      "sha256": "781e1057c251b36b632f1f42f29b32f0c3dc31ed8910bf997b090a6291a88f6d",
+      "bytes": 262699
+    },
+    {
+      "path": "assets/previews/16.png",
+      "sha256": "21fda30cabd45bf5de8b4b8669bcb8770fe69f99c4b668a321890db10f95a7dd",
+      "bytes": 732869
+    },
+    {
+      "path": "assets/previews/17.png",
+      "sha256": "ffa70b7626526f7697c83486218353667e4b19b933004e9421668bec4e8faa15",
+      "bytes": 172258
+    },
+    {
+      "path": "assets/previews/18.png",
+      "sha256": "fda4c7905ab4c17541f281b78a4b651e110a5de2f3ff44d3d3eeb6d7e8f796d5",
+      "bytes": 380435
+    },
+    {
+      "path": "assets/previews/19.png",
+      "sha256": "0714783c8826159e53ac3691439df1e0d28402c70db5da5fb5a9fe835a529f88",
+      "bytes": 311308
+    },
+    {
+      "path": "assets/previews/20.png",
+      "sha256": "2d105c10bcff496326a68dc3a3d293346c10826b9d135ac6e9f4ab8ad3916fae",
+      "bytes": 289948
+    },
+    {
+      "path": "assets/previews/21.png",
+      "sha256": "f93ded8d29edbf158838d0b633bf53df3a7e1450cb6ea12ffad20238281291ba",
+      "bytes": 308632
+    },
+    {
+      "path": "assets/previews/22.png",
+      "sha256": "f0394d685492e7f5cfb14b1e1c507ac4bb3230d2a6d67b80f73f2abeca781f71",
+      "bytes": 312023
+    },
+    {
+      "path": "assets/previews/23.png",
+      "sha256": "81d9df4772fc88392b9d4e02c71dda972618529eed58657b157cb4bb9e9d30e4",
+      "bytes": 327145
+    },
+    {
+      "path": "assets/previews/24.png",
+      "sha256": "5a3795ba38560953faafd6eb83402f9679f42d8dc8b3e250b82bf0201ae2f64c",
+      "bytes": 314082
+    },
+    {
+      "path": "assets/previews/25.png",
+      "sha256": "9b95ea7463d1bfae5d80ee2cae775842cc155fdad197feafa16e830426855313",
+      "bytes": 351153
+    },
+    {
+      "path": "assets/previews/26.png",
+      "sha256": "3faa37f10b03f1bb2f40fdff7b9739b39ecacc22b016e070e6a4554caff1cd2f",
+      "bytes": 323292
+    },
+    {
+      "path": "assets/previews/27.png",
+      "sha256": "e9e81c4e715b7d4d23ef8cb27411679e55192b9067513e7ad611403d06d45f74",
+      "bytes": 555553
     },
     {
       "path": "assets/prompts/chapter.txt",
@@ -86,38 +219,123 @@
     },
     {
       "path": "assets/reference.pptx",
-      "sha256": "791ffcafcf19ad3a016194a4344827a39b0435347ebfc72c5bf33cd7e8056835",
-      "bytes": 4054512
+      "sha256": "192bc6b9d0dd3800437bcb0cc32ebc7acd23f93a92c36f5bf3d1964035eb38d0",
+      "bytes": 12427050
     },
     {
-      "path": "assets/samples/chapter-v3.pptx",
-      "sha256": "7e1bd28fa9a65e77ef1011c5b9654d8d23b57d95dbb75a46ac38f65624f2cf20",
-      "bytes": 1493787
+      "path": "design-tokens.json",
+      "sha256": "d11c419eb69fc65472b034a076993f4052292632ec93cdf09df4f664da3407f2",
+      "bytes": 1831
     },
     {
-      "path": "assets/samples/content-circles-v1.pptx",
-      "sha256": "6542dd0901338e3c074ed0d46fe90a862014059bcfd41c9fc2e5535a174a020a",
-      "bytes": 7070611
+      "path": "examples/evaluation-cases.md",
+      "sha256": "7f51ac2b3aec3d7ae81f7bb87f5fe015716d3c9b9876a3fe7caf8c9dbb106e36",
+      "bytes": 1380
     },
     {
-      "path": "assets/samples/knowledge-practice-v2.pptx",
-      "sha256": "0f45157246ae2bbbaada0c2ab1be756c03f49c79fbec529ef1ba8d9933b45ba0",
-      "bytes": 2459640
+      "path": "examples/课程开发示例.json",
+      "sha256": "380977bce89e0b41582934f78eaa410b554dc39f8db64bf76cfa768797f89660",
+      "bytes": 3184
     },
     {
-      "path": "assets/samples/outline-v2.pptx",
-      "sha256": "8743e6a7f4320003411c649bd6184ee723786bc0e947df79dfae30fdfe8922c7",
-      "bytes": 2039262
+      "path": "references/approved-assets.md",
+      "sha256": "5fe40bec8aeddb5b587dbe1db6ebcee838ec7503393fb30e653b2710aa0ba2f8",
+      "bytes": 3805
     },
     {
-      "path": "assets/samples/profile-v6.pptx",
-      "sha256": "fb63887bb2051011273e01e0f34275265908f685f42b2f0404464ab8240c4828",
-      "bytes": 4614542
+      "path": "references/brand-and-layout.md",
+      "sha256": "923a0da53c52222dc0c8bf4fc13a77d0d21eea2c7688e17aa3ccd0487394e1c1",
+      "bytes": 5080
     },
     {
-      "path": "assets/samples/three-icons-v3.pptx",
-      "sha256": "98437353a6a65826e1084d8c9e35aaff44c6238820a1852d8a7fb9e04b72f050",
-      "bytes": 6299956
+      "path": "references/expression-patterns.md",
+      "sha256": "5586e43590a59f09fc5ca254a550368884511ec937b027868c45cf8bfc21f14c",
+      "bytes": 4870
+    },
+    {
+      "path": "references/input-and-course-design.md",
+      "sha256": "6c1918d5ff8efefaa733a8f00d2650549a128b7b46c92bbc96b88ee666dce72b",
+      "bytes": 4936
+    },
+    {
+      "path": "references/personalization.md",
+      "sha256": "07ecc5dd0cd5b5d94111fb02c06e63c12b7a86e0e213924c25574680e60767e2",
+      "bytes": 1668
+    },
+    {
+      "path": "references/preservation-and-local-edit.md",
+      "sha256": "aafc46b869d0391871192c4cc9e3b395d6436314dd06a0975cabbc0e1f9ee7a3",
+      "bytes": 4049
+    },
+    {
+      "path": "references/production-and-review.md",
+      "sha256": "bdbe50a9e2f3f8259529a3c8accf6316feb4156dec671a34fd7e4c48a0d2ec5c",
+      "bytes": 3384
+    },
+    {
+      "path": "references/source-provenance.json",
+      "sha256": "b5f338b0b96dfe26ac125ccb82f97aefabbe55d9227e38c6ebc44e59a4bd2220",
+      "bytes": 862
+    },
+    {
+      "path": "references/sources.md",
+      "sha256": "247f7e003fdbb43cd3ca6c09f0ccead0b42c65ec13abeb14a942aca8d9ee3a1b",
+      "bytes": 1838
+    },
+    {
+      "path": "references/teaching-flow.md",
+      "sha256": "8e918fe9d08d5cd3d6c52096ddc130adfb6c223b4322ed564db7be4a536e8034",
+      "bytes": 3251
+    },
+    {
+      "path": "references/version-history.md",
+      "sha256": "91492911673b9fc70d6b72c6ae8602a7f7a87b7a68ce8f2530e53f2a4cc6ea78",
+      "bytes": 3059
+    },
+    {
+      "path": "scripts/audit_deck.py",
+      "sha256": "e754d6894f22ed6b36de62d3041c69a8bac4b0e734365dc6bd9ab9c178db38f9",
+      "bytes": 5203
+    },
+    {
+      "path": "scripts/audit_style.py",
+      "sha256": "146ab2b365372fb3c2b949436975e29a5547a9ac3e03bc986536d4be626b7da2",
+      "bytes": 5128
+    },
+    {
+      "path": "scripts/check_package.py",
+      "sha256": "4ab054a2af3f49d5ddcf3ad22945bb6a3fcab91689586179298c1127e379c9c2",
+      "bytes": 3606
+    },
+    {
+      "path": "scripts/compare_decks.py",
+      "sha256": "7204a4aa0455086e9759b8dd2b4d71e3006c3ad81bae395e271f2f546811bb61",
+      "bytes": 4920
+    },
+    {
+      "path": "scripts/extract_reference_pages.py",
+      "sha256": "9ac5a4c70c3d7bb9d3f433f96137061ca9edb20276817e386635cb8d841321c5",
+      "bytes": 3624
+    },
+    {
+      "path": "scripts/patch_pptx_parts.py",
+      "sha256": "dc41a3f74035ab582c777310602e531acf141ab5388a44033dfe2f6fbffa9433",
+      "bytes": 3328
+    },
+    {
+      "path": "scripts/pptx_inventory.py",
+      "sha256": "91099c151903e7282c1b2af91581a170c852e621be5fc381c60939a2499640a3",
+      "bytes": 2798
+    },
+    {
+      "path": "scripts/run_regressions.py",
+      "sha256": "ee5135c9d73aef65b8b50eef85cc31a5aa690cf5026b51199a75251e8ccc633c",
+      "bytes": 4170
+    },
+    {
+      "path": "使用说明.md",
+      "sha256": "457883f185217f7fb82776695bafa0a418a93a9040489decb78cbdc799754416",
+      "bytes": 2370
     }
   ]
 }

@@ -1,148 +1,115 @@
-# 河图·AI讲师PPT
+# 河图·AI讲师PPT · v2.0.0
 
-**培训师专用PPT技能，专门为培训师设计，尤其面向AI时代的培训师。**
+**培训师专用PPT技能，专门为培训师设计，尤其适合AI时代的培训师。适用Agent：ChatGPT。**
 
-**适用Agent：ChatGPT。** 需要支持技能、联网检索、图片生成、PPT编辑和渲染的环境；本次样例已在Codex桌面环境完成制作与检查。
+从主题、课纲、书籍或混合资料开发可教、可练、可编辑的培训课件；也能在完整保留原课内容的前提下精修旧PPT，以及只改指定页、指定对象。
 
-把一个主题、一份课纲、一本书或一组资料，开发为有教学逻辑、有案例、有实操、有练习的培训课件。既规划“讲什么、学员怎么学”，也设计“每一页怎样表达”。
+本次升级从一套**120页完整课程和多轮真实修改**提炼方法：27张可编辑原生参照、21类表达决策、四种工作模式及保真检查。当前版本：**v2.0.0（2026-10-18）**。显示名和调用ID保持不变。
 
-![河图培训课件封面](docs/images/01-cover.png)
+[下载最新完整技能包](https://github.com/wuhetu619-crypto/hetu-ai-trainer-ppt/releases/latest) · [详细更新日志](CHANGELOG.md) · [v2升级记录与验证](docs/releases/v2.0.0.md) · [经验萃取](docs/experience-distillation.md)
 
-## 为培训师解决什么问题
+![v2封面实际渲染](docs/images/v2-01-cover.png)
 
-- **只有主题，也能开发课程**：从学员、岗位任务与学习目标出发，延展知识、案例和课堂活动。
-- **已有课纲，补齐教学链条**：每个实质知识单元按“起、承、转、合”组织，引入情境、解释方法、动手应用、反馈迁移；不机械拆成四页。
-- **AI时代的课堂实操**：准备工具前提、真实界面截图、可复制指令、模拟案例、练习任务与核验标准。
-- **按语义选表达**：流程用流程图，原理用机制图，故事配核实过的人物与场景，软件操作用真实截图，关键观点用大字金句。
-- **讲课能看清，讲完能练习**：大字号、规整对齐、充分留白；复杂内容主动拆页，配套学员练习和讲师参考答案。
-- **后续修改有连续性**：多轮反馈局部修改，保持已经确认的版式、身份与品牌素材。
+## 不止生成漂亮页面
 
-不局限于AI课程，也适用于管理、岗位技能、业务制度、工具使用等培训；“AI时代”指借助AI开发、表达与实操的教学方式。
-
-## 样式预览
-
-以下均来自《AI在税务系统中的应用》15页测试课件的实际渲染页面。正文、流程和表格保留为PPT中的原生可编辑对象；背景与插画独立。案例有公开出处，练习问题及示范答复标注为课堂模拟。
-
-### 鱼骨大纲：让学员看懂学习路线
-
-![鱼骨大纲页](docs/images/02-fishbone-outline.png)
-
-### 章节页：用有功能的图形解释主题
-
-![功能性章节背景](docs/images/03-chapter.png)
-
-### 知识页：三幅插画对应三个知识点
-
-![三图标知识页](docs/images/04-illustrated-knowledge.png)
-
-### 演示页：真实资料与讲师示范相互对应
-
-![真实网页截图与模拟答复](docs/images/05-demonstration.png)
-
-### 练习页：案例、时间、提交物和检查要求
-
-![学员练习页](docs/images/06-learner-practice.png)
-
-## 视觉与课件规范
-
-| 项目 | 默认设计 |
+| 你的任务 | 技能怎样处理 |
 | --- | --- |
-| 画幅 | 16∶9 |
-| 品牌氛围 | 深蓝、青绿，少量薄荷色和金色 |
-| 标题与正文 | 思源黑体Heavy / Regular；内容标题36—40pt，普通正文建议22—26pt |
-| 封面 | 根据课程主题生成低干扰的蓝绿背景，自动提炼副标题和可选主题句 |
-| 讲师介绍 | 完整课程第2页，固定已确认介绍布局，使用真实照片与资历 |
-| 大纲 | 鱼骨中轴，上下交替章节标题与概括 |
-| 章节 | 大标题＋一句概括＋有语义关系的渐变背景 |
-| 内容 | 边角淡色大圆与中央清晰阅读区，文字图形对齐，页脚留足空间 |
-| 可编辑性 | 文字、逻辑图、表格与数据图原生可编辑；插画背景独立 |
-| 交付 | PPTX、PDF、学员练习材料、讲师备注/答案、来源和版本记录 |
+| 只有主题，开发一门课 | 从岗位任务和学习目标延展解释、案例、实操、练习、讲评与迁移 |
+| 有简纲或资料 | 保留章意，补足知识前提、条件、误区、案例和验收；起承转合内化，不机械四页 |
+| 美化旧课，不能删内容 | 逐页逐对象保留原文、图片、表格和视频；用基线证明，不能摘要化 |
+| 允许扩充 | 保留原页去向，新增辅助页单独记录；长原文用连续放大页 |
+| 只改两页表格 | 只读目标页及必要依赖，原生大字居中、浅绿表格，范围外压缩成员原样 |
 
-## 支持什么输入
+支持主题、培训需求、课纲、知识点、书籍、报告、文章、网页、讲稿、制度/SOP、访谈/会议、可读取音视频、软件截图、案例、数据、学员作品和持续对话。读取能力由当前环境决定，不宣称读取不可访问资料。
 
-主题、培训需求、简单或详细课纲、知识点、书籍、文章、网页、论文、旧课件、制度/SOP、访谈与会议记录、可读取的录音/视频、操作截图、案例、数据、学员作品与问题，以及混合材料和持续对话。
+## v2实际样式
 
-能读取哪些文件和链接取决于当前环境。内容不足时先做合理假设和研究；无法查证的部分明确标注，不补造事实或操作证据。
+以下预览都由新版原生参考PPT实际渲染。参考共27页，来自120页源课件；不是重新生成的效果图。文字、表格和逻辑图保持可编辑，背景和插画独立。
 
-## 安装
+### 学习路线：鱼骨中轴
 
-### ChatGPT
+![鱼骨学习路线](docs/images/v2-02-outline.png)
 
-下载 [最新版完整技能包](https://github.com/wuhetu619-crypto/hetu-ai-trainer-ppt/releases/latest)，在支持本地技能的ChatGPT桌面环境中，请技能安装器导入完整文件夹并检查资源。请保留 `assets`、`references` 和 `scripts`，不要只复制 `SKILL.md`。
+### 章节：图案解释主题
 
-启用后，可在ChatGPT中通过 `@` 选择技能，或直接说明“使用河图·AI讲师PPT”。技能可用范围和入口以当前客户端为准；本仓库发布的是技能源文件和安装包，未宣称已上架ChatGPT插件目录。参见 [OpenAI官方技能说明](https://learn.chatgpt.com/docs/build-skills)。
+![书本转化为步骤与判断的功能图](docs/images/v2-03-chapter.png)
 
-### Codex：复制这段安装请求
+### 三幅功能插画与清楚的底部留白
+
+![三图知识页](docs/images/v2-04-illustrations.png)
+
+### 卡片随内容定高，修正框内空洞
+
+![紧凑四卡片](docs/images/v2-05-compact-cards.png)
+
+### 浅绿原生表格：大字、水平垂直居中
+
+![岗位案例表格](docs/images/v2-06-green-table.png)
+
+![阈值与算法表格](docs/images/v2-07-calculation-table.png)
+
+### 验证和讲评：看理由与标准
+
+![步骤与评价标准](docs/images/v2-08-validation.png)
+
+## 固定品牌与可变内容
+
+- 16∶9；深蓝#123B5D、青绿#18A999，淡色边角大圆背景与近白阅读区。
+- 可编辑文字统一**思源黑体Heavy并加粗**。新课正文建议18—26pt，按内容和投影可读性选择；长内容优先拆页。字体文件未随包分发。
+- 图片、人物抠图与真实工具Logo**不加外框、阴影或强制圆角遮罩**，保留透明轮廓；知识流程框与表格线继续保留。
+- **一个左下小Logo、一个右下小页码**，实际`n / N`；右上不放旧页码/章名/水印。
+- 封面根据主题生成低干扰功能图；章节只保留大标题和一句概括，图案解释对象、关系或转化。
+- 完整个人课程第2页锁定讲师介绍；其他培训师必须换成自己的真实身份，见[个人化配置](skills/artifact-template-hetu-trainer-ppt/references/personalization.md)。
+- 新课、全套改稿与局部修改使用不同检查范围；用户只要PPT时，不额外交付一堆材料。
+
+详细参数在[design-tokens.json](skills/artifact-template-hetu-trainer-ppt/design-tokens.json)，表达规则在[页型选择器](skills/artifact-template-hetu-trainer-ppt/references/expression-patterns.md)。这套课的标题、120页数、章数、产品年份与统计不是模板常量；新主题重新研究。
+
+## 安装和升级
+
+**目标是支持本地技能的ChatGPT桌面/Codex兼容环境。** 当前作者桌面显示名为ChatGPT，个人模板安装在`~/.codex/skills/artifact-template-hetu-trainer-ppt`。仓库发布不代表任意ChatGPT网页、手机或云工作区已自动安装。
+
+下载完整zip，保留assets、references、scripts。已有同名技能时原位更新同一目录，别并列安装v1/v2；修改过个人品牌的用户先保留自己的配置，再合并升级。
+
+可复制这段请求给支持技能安装的Agent：
 
 ```text
-使用 skill-installer，从这个GitHub仓库安装“河图·AI讲师PPT”：
-https://github.com/wuhetu619-crypto/hetu-ai-trainer-ppt
-技能目录：skills/artifact-template-hetu-trainer-ppt
-保留完整素材，运行资源检查，并告诉我调用方式。
-如果已经安装同名技能，先核对现有版本，避免重复安装。
+从 https://github.com/wuhetu619-crypto/hetu-ai-trainer-ppt
+安装/升级“河图·AI讲师PPT”至v2.0.0。
+仓库内目录：skills/artifact-template-hetu-trainer-ppt。
+先识别同名现有版本，保留我的个人化配置，只保留一个活动安装。
+保留完整素材，运行包检查，并验证技能发现与启用状态。
 ```
 
-安装了支持 `gh skill` 的GitHub CLI时，也可执行：
+具体入口与云端区别见[安装与升级](docs/installation-and-upgrade.md)。
 
-```bash
-gh skill install wuhetu619-crypto/hetu-ai-trainer-ppt skills/artifact-template-hetu-trainer-ppt --agent codex --scope user
-```
-
-## 如何调用
-
-**直接做一套培训：**
+## 怎样调用
 
 ```text
 使用河图·AI讲师PPT，制作《AI在税务系统中的应用》，15页，
-面向税务干部中的AI初学者。自行联网研究，加入公开案例、
-模拟实操、学员练习和讲评，直接完成第一版。
+面向税务干部中的AI初学者。联网研究，包含具体案例、实操、
+学员练习和讲评。先给课纲和逐页规划。
 ```
-
-**先规划再制作：**
 
 ```text
-使用河图·AI讲师PPT，把附件课纲开发为90分钟培训。
-先给课纲与逐页规划，每章补充必要知识、案例、练习和讲评。
-我的讲师介绍、真实照片与Logo以附件为准。
+使用 $artifact-template-hetu-trainer-ppt，把附件旧PPT做保真精修。
+每页、每字、图片和视频全部保留，页数不变，只优化形式，
+不要整理课纲，不用额外生成学员材料。
 ```
-
-**把书变成课程：**
 
 ```text
-使用河图·AI讲师PPT，把这本书改编成管理者沟通培训。
-保留重要观点和来源定位，加入岗位情境、判断题与练习。
+使用河图AI PPT，只把第101、102页的表格字体放大并居中，
+加浅绿色边框；其余内容、对象、页面和页数都保持不变。
 ```
 
-**持续改稿：**
+可以在@Presentations的模板图库中选择此个人模板（客户端需支持），或显式调用`$artifact-template-hetu-trainer-ppt`。技术ID不变：`artifact-template-hetu-trainer-ppt`。
 
-```text
-第三章太抽象，加一幅机制图和一道判断题；其他已确认页面保持。
-```
-
-技术ID：`artifact-template-hetu-trainer-ppt`。Codex中可用 `$artifact-template-hetu-trainer-ppt` 显式调用。
-
-## 换成你的讲师品牌
-
-包内保留吴河图个人介绍和河图探课Logo，作为作者品牌样例。其他培训师使用时，应替换为自己的真实照片、姓名、资历与Logo；不得把样例作者身份作为自己的信息。详见 [个人化配置](skills/artifact-template-hetu-trainer-ppt/references/personalization.md)。
-
-默认思源黑体，字体文件未随包分发。制作需要可用的联网、生图、PPT编辑和渲染工具；技能本身提供方法、规则、检查脚本和素材，不是脱离Agent独立运行的应用。宝玉技能不是硬依赖。
-
-## 包结构与检查
-
-```text
-skills/artifact-template-hetu-trainer-ppt/
-├── SKILL.md                技能入口
-├── agents/openai.yaml      中文显示名称与调用提示
-├── references/             教学、版式、制作与个人化规范
-├── assets/                 原生样页、背景、品牌、预览与资源清单
-├── examples/               课程开发示例
-└── scripts/                资源与PPT结构检查
-```
+## 检查与能力边界
 
 ```bash
 python3 skills/artifact-template-hetu-trainer-ppt/scripts/check_package.py
+python3 skills/artifact-template-hetu-trainer-ppt/scripts/run_regressions.py
 ```
 
-结构检查不能替代逐页视觉和教学审校。公开包不包含封装前的聊天/讨论档案、本机环境配置或API密钥。
+包检查、原生对象/媒体比较、局部压缩成员证明与样式检查均只依赖Python标准库。结构通过不能代替视觉阅读、真实演示或原生软件播放。制作仍需要当前Agent具备PPT编辑、渲染、联网与按需生图能力；宝玉技能不是硬依赖。
 
-样例公开资料出处见 [截图来源与案例说明](docs/examples-and-sources.md)。
+公开包保留作者身份品牌示例与27张原生样页，不包含完整120页成品、私人聊天、账户配置、密钥或字体文件。样例产品与数字仅为原课内容，不作为本项目新核实的事实；详见[样页与来源](docs/examples-and-sources.md)。

@@ -23,6 +23,7 @@
     "总页数和当前页码"
   ],
   "change_policy": "未经用户明确要求，照片、介绍文字、第2页位置、字号、断行与已确认布局均直接沿用；不自行重新设计。",
-  "locked_reference": "assets/samples/profile-v6.pptx",
-  "locked_reference_slide": 2
+  "locked_reference": "assets/reference.pptx",
+  "locked_reference_slide": 2,
+  "version": "2.0.0"
 }

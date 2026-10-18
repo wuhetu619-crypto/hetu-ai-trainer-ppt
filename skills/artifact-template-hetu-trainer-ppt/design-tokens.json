@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "version": "2.0.0",
+  "canvas": {
+    "width_px": 1280,
+    "height_px": 720,
+    "width_emu": 12192000,
+    "height_emu": 6858000
+  },
+  "palette": {
+    "navy": "123B5D",
+    "teal": "18A999",
+    "mint": "66D9CC",
+    "gold": "D6A84B",
+    "cream": "F7F3E8",
+    "corner_blue": "EAF2F7",
+    "corner_green": "E5F4F0"
+  },
+  "typography": {
+    "family": "Source Han Sans SC Heavy",
+    "bold": true,
+    "cover_pt": 60,
+    "chapter_pt": 54,
+    "content_title_pt": [
+      28,
+      40
+    ],
+    "body_pt": [
+      18,
+      26
+    ],
+    "secondary_pt": [
+      16,
+      20
+    ],
+    "folio_pt": 10
+  },
+  "footer": {
+    "logo_names": [
+      "hetu-footer-logo",
+      "河图统一页脚Logo"
+    ],
+    "folio_names": [
+      "hetu-footer-folio",
+      "河图统一页码"
+    ],
+    "logo_frame_px": [
+      64,
+      663,
+      96,
+      34
+    ],
+    "folio_frame_px": [
+      1116,
+      673,
+      100,
+      20
+    ],
+    "folio_format": "n / N",
+    "top_right_markers": false,
+    "minimum_content_gap_px": 24,
+    "preferred_content_bottom_px": 640
+  },
+  "table": {
+    "body_pt": 18,
+    "header_pt": 18.5,
+    "alignment": "center",
+    "vertical_alignment": "middle",
+    "border": "A9D9C7",
+    "border_width_px": 1.5,
+    "header_fill": "DDEFE6",
+    "body_fill": "FFFFFF",
+    "alternate_fill": "F2F9F5",
+    "body_color": "123B5D",
+    "label_color": "168477",
+    "line_spacing_percent": 110,
+    "three_column_reference_px": [
+      [
+        180,
+        486,
+        486
+      ],
+      [
+        180,
+        430,
+        542
+      ]
+    ],
+    "row_height_reference_px": [
+      68.2,
+      88
+    ]
+  },
+  "pictures": {
+    "add_border": false,
+    "add_shadow": false,
+    "round_cutout_mask": false,
+    "preserve_aspect_ratio": true,
+    "preserve_alpha": true
+  }
+}

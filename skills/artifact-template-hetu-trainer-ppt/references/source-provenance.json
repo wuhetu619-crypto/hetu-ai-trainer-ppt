@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "source_title": "把经验变成AI生产力_101-102页表格优化_120页.pptx",
+  "source_slides": 120,
+  "source_sha256": "119b155b7c76edba4735b4c93530bc7734548bb0bd2857745b8f7401e7548add",
+  "reference_slides": 27,
+  "source_pages": [
+    1,
+    2,
+    3,
+    6,
+    13,
+    14,
+    26,
+    28,
+    31,
+    32,
+    35,
+    36,
+    43,
+    49,
+    59,
+    62,
+    75,
+    85,
+    87,
+    95,
+    101,
+    102,
+    104,
+    105,
+    109,
+    118,
+    120
+  ],
+  "transformations": [
+    "Select original slides and necessary native dependencies",
+    "Omit notes from portable reference",
+    "Renumber only named footer objects to 1 / 27 through 27 / 27"
+  ],
+  "not_fixed": [
+    "historical claims",
+    "product facts",
+    "course title",
+    "120-page length",
+    "section count"
+  ],
+  "full_source_in_public_package": false
+}

@@ -3,6 +3,7 @@
 from pathlib import Path
 import hashlib
 import json
+import re
 import sys
 import zipfile
 import xml.etree.ElementTree as ET
@@ -42,6 +43,23 @@ def check(root):
     profile = json.loads((root / 'assets/brand/instructor.json').read_text(encoding='utf-8'))
     if hashlib.sha256((root / profile['photo']).read_bytes()).hexdigest() != profile['photo_sha256']:
         errors.append('Instructor photo no longer matches approved original')
+    version = (root / 'VERSION').read_text().strip()
+    tokens = json.loads((root / 'design-tokens.json').read_text())
+    if manifest.get('version') != version or tokens.get('version') != version:
+        errors.append('Version differs between VERSION, manifest and tokens')
+    if f'version: "{version}"' not in (root / 'SKILL.md').read_text():
+        errors.append('Entrypoint version differs from VERSION')
+    for name in ['pptx_inventory.py','extract_reference_pages.py','patch_pptx_parts.py',
+                 'compare_decks.py','audit_style.py','run_regressions.py']:
+        if not (root/'scripts'/name).is_file():
+            errors.append('Missing executable helper: '+name)
+    for md in root.rglob('*.md'):
+        for dest in re.findall(r'\]\(([^)]+)\)', md.read_text(encoding='utf-8')):
+            if '://' in dest or dest.startswith('#'):
+                continue
+            target = (md.parent / dest.split('#')[0]).resolve()
+            if not target.exists():
+                errors.append(f'Broken relative link in {md.relative_to(root)}: {dest}')
     return {'ok': not errors, 'checked_resources': len(manifest['files']), 'errors': errors}
 
 

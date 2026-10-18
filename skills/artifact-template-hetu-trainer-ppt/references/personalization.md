@@ -10,7 +10,7 @@
 
 1. 使用该讲师实际提供的姓名、简介、真实照片与Logo。只有主题、没有讲师资料时，先留明确占位或制作其他已具备材料的页面；不补造身份。
 2. 保留第2页左文右人、蓝绿气氛及留白结构，在课程副本中替换身份素材。用户确定新介绍后，该课程后续版本保持一致。
-3. 如要建立自己的长期版本，同时更新 `assets/brand/instructor.png`、`instructor.json` 中的姓名/资历/照片哈希，以及 `assets/samples/profile-v6.pptx` 第2页；替换Logo时保留深浅两版与比例，并更新参考页。不要只改JSON却保留旧照片或旧幻灯片。
+3. 如要建立自己的长期版本，同时更新 `assets/brand/instructor.png`、`instructor.json` 中的姓名/资历/照片哈希，以及 `assets/reference.pptx` 第2页；替换Logo时保留深浅两版与比例，并更新参考页。不要只改JSON却保留旧照片或旧幻灯片。
 4. 身份或品牌替换后，更新 `references/brand-and-layout.md`、`references/approved-assets.md` 和资源清单 `assets/manifest.json` 的路径、哈希、字节数，检查整个包再逐页查看。
 5. `audit_deck.py --profile-page 2` 核验的是当前包内的讲师配置；一次性使用其他讲师且未改包时，省略该选项并人工核对介绍，不把作者信息强制加回。
 

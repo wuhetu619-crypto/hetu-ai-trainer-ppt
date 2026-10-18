@@ -1,26 +1,50 @@
-# 有效样页索引
+# v2当前原生样页索引
 
-路径相对skill根目录。`assets/manifest.json`记录包内文件校验值。先看预览再复制源PPT，保持原生对象、布局与品牌素材。
+唯一当前源为 `assets/reference.pptx`（27页）。从用户确认的120页最终课件抽取，保留原生文字、表格、图片关系与布局；页码重编为1 / 27至27 / 27。每一张都有实际渲染预览。源页号用于追溯，不是未来课件的页码或课程顺序要求。
 
-| 页型 | 源与有效页 | 预览 | 状态 |
+| 参考页 | 120页案例源页 | 表达用途 | 实际预览 |
 | --- | --- | --- | --- |
-| 封面 | assets/reference.pptx，第1页 | assets/preview.png | 已确认，按新主题换文案和背景 |
-| 个人介绍 | assets/samples/profile-v6.pptx，第2页 | assets/previews/profile.png | 已锁定，完整课程第2页 |
-| 鱼骨大纲 | assets/samples/outline-v2.pptx，第1页 | assets/previews/outline.png | 已确认；该文件第2页是旧章节 |
-| 章节页 | assets/samples/chapter-v3.pptx，第1页 | assets/previews/chapter.png | 已锁定；新主题生成新功能关系图 |
-| 内容背景 | assets/samples/content-circles-v1.pptx，第1页 | assets/previews/content.png | 已确认浅色圆形与留白 |
-| 三图标几何 | assets/samples/three-icons-v3.pptx，第1页 | 沿用上行预览的三栏 | 已确认留白；背景以圆形版为准 |
-| 流程知识/实操 | assets/samples/knowledge-practice-v2.pptx，第2、3页 | 需要时渲染源PPT | 教学参照；背景遵循最新圆形规则 |
+| 1 | 1 | 封面 | [01](../assets/previews/01.png) |
+| 2 | 2 | 固定个人介绍 | [02](../assets/previews/02.png) |
+| 3 | 3 | 鱼骨学习路线 | [03](../assets/previews/03.png) |
+| 4 | 6 | 学习契约与课程地图 | [04](../assets/previews/04.png) |
+| 5 | 13 | 完整任务流程 | [05](../assets/previews/05.png) |
+| 6 | 14 | 工具同维度对比 | [06](../assets/previews/06.png) |
+| 7 | 26 | 三幅功能插画 | [07](../assets/previews/07.png) |
+| 8 | 28 | 中心定义与金句 | [08](../assets/previews/08.png) |
+| 9 | 31 | 紧凑四卡片 | [09](../assets/previews/09.png) |
+| 10 | 32 | 边界与收益 | [10](../assets/previews/10.png) |
+| 11 | 35 | 目录与层级结构 | [11](../assets/previews/11.png) |
+| 12 | 36 | 渐进式说明 | [12](../assets/previews/12.png) |
+| 13 | 43 | 安装方法与完成确认 | [13](../assets/previews/13.png) |
+| 14 | 49 | 真实产物展示 | [14](../assets/previews/14.png) |
+| 15 | 59 | 适用边界比较 | [15](../assets/previews/15.png) |
+| 16 | 62 | 功能性章节图 | [16](../assets/previews/16.png) |
+| 17 | 75 | 常量变量与文档案例 | [17](../assets/previews/17.png) |
+| 18 | 85 | 五步方法流程 | [18](../assets/previews/18.png) |
+| 19 | 87 | 原话到规则到验证 | [19](../assets/previews/19.png) |
+| 20 | 95 | 两次验证 | [20](../assets/previews/20.png) |
+| 21 | 101 | 浅绿居中岗位表格 | [21](../assets/previews/21.png) |
+| 22 | 102 | 浅绿居中计算表格 | [22](../assets/previews/22.png) |
+| 23 | 104 | 验证步骤与评分 | [23](../assets/previews/23.png) |
+| 24 | 105 | 失败原因与修订 | [24](../assets/previews/24.png) |
+| 25 | 109 | 三个角色与职责 | [25](../assets/previews/25.png) |
+| 26 | 118 | 全课回顾与迁移方法 | [26](../assets/previews/26.png) |
+| 27 | 120 | 结束与回扣 | [27](../assets/previews/27.png) |
 
-## 固定资源
+## 复用规则
 
-- assets/brand/logo-dark.png：深色字，浅底用。
-- assets/brand/logo-light.png：浅色字，深底用。
-- assets/brand/instructor.png：真实讲师原照。
-- assets/brand/instructor.json：原文、照片SHA及固定页要求。
-- assets/backgrounds/content-circles.png：当前内容背景。
-- assets/backgrounds/cover-experience.png：经验主题封面示例，不用于所有新主题。
-- assets/backgrounds/chapter-experience.png：书籍展开为步骤/判断的章节背景示例。
-- assets/backgrounds/three-concepts-original.png：原手艺/办公/AI三图，不替代其他主题的小图。
-- assets/prompts/cover.txt、chapter.txt、content.txt：历史生成提示词，按当前主题和规范改写，不直接复用主题名。
+先看对应预览，再复制参考页中的原生对象。保留版式关系，按新内容更新语义；案例中的题目、年份、产品与数字不作为模板固定事实。章节的书本—连线—分支结构可借鉴，别的主题应生成对应的解释性图案。
 
+旧版散落的samples与讨论archive已退出当前包。不要从历史提交中把旧字体、图片框、重复页码规则加回来。固定个人介绍以当前第2页为准；表格最新确认以第21/22页为准。其余样页里保留的原有深蓝表头用于理解关系，不强制全套只有一种表格。
+
+## 独立素材
+
+- `assets/brand/logo-dark.png`、`logo-light.png`：真实深浅Logo，保持原色和透明度。
+- `assets/brand/instructor.png`、`instructor.json`：真实照片、资历、校验与锁定要求。
+- `assets/backgrounds/content-circles.png`：当前淡色边角大圆内容背景。
+- `assets/backgrounds/cover-experience.png`、`chapter-experience.png`：经验主题的历史已确认背景资产；最新课程封面/章节构图以当前参考页为准，新主题重新生成。
+- `assets/backgrounds/three-concepts-original.png`：三阶段插画示例，不强制用于其他主题。
+- `assets/prompts/`：按主题改写的生成起点，不生成正文、页码或Logo。
+
+完整120页及原始访谈/讨论不装入公开技能包；其内容表达已归纳为expression-patterns与preservation-and-local-edit。27页是样式与方法参考，不是精简后的培训成品。

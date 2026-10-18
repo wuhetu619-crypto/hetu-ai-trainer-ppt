@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",
+  "date": "2026-10-18",
+  "reference_slides": 27,
+  "rendered_previews": 27,
+  "readme_screenshots": 8,
+  "package_resource_files": 67,
+  "regressions": {
+    "ok": true,
+    "passed": 12,
+    "checks": [
+      "all native reference pages obey explicit brand rules",
+      "latest green tables pass centered large-text profile",
+      "one-table format change preserves text and all out-of-scope compressed records",
+      "allowed format object still detects one deleted character",
+      "unchanged text does not excuse out-of-scope format change",
+      "Regular regression is detected",
+      "explicit non-bold text is detected",
+      "duplicate folio is detected",
+      "new picture frame is detected",
+      "selected reference extraction preserves native cells",
+      "extracted tables preserve every cell",
+      "self comparison preserves every original object"
+    ],
+    "scope": "Deterministic native-PPT and failure-injection checks; not a full agent behavior or slideshow playback test."
+  },
+  "real_case": {
+    "original_slides": 120,
+    "revised_slides": 120,
+    "modified_display_pages": [
+      101,
+      102
+    ],
+    "allowed_table_objects": [
+      "101:6",
+      "102:15"
+    ],
+    "checked_original_objects": 28,
+    "unchanged_compressed_members": 694,
+    "ok": true
+  },
+  "deployment": {
+    "target": "ChatGPT desktop with user-scoped Codex-compatible personal skills",
+    "same_skill_id": "artifact-template-hetu-trainer-ppt",
+    "fresh_scan": true,
+    "enabled": true,
+    "version_on_disk": "2.0.0"
+  },
+  "limits": [
+    "No PowerPoint/WPS animation or video-playback claim",
+    "No upload to a ChatGPT cloud workspace was performed",
+    "The 27-slide reference is a style/method library, not a shortened replacement of the original 120-slide course",
+    "No claim that every sample product/year/license statement was freshly verified"
+  ]
+}
